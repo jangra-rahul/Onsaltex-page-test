@@ -7,6 +7,7 @@ import arrow1 from "../assets/image/png/arrow1.png";
 import arrow_1 from "../assets/image/png/arrow.png";
 import image3 from "../assets/image/png/image3.png";
 import sh_img2 from "../assets/image/png/sh_img2.png";
+import { Container } from "react-bootstrap";
 
 function Calendar() {
   return (
@@ -22,8 +23,7 @@ function Calendar() {
           src={sh_img2}
           alt="sh_img"
         />
-        <div className="container pb-md-5 position-relative z_index_1">
-          {" "}
+        <Container className=" pb-md-5 position-relative z_index_1">
           <div className="row mt-md-3 justify-content-around">
             <div className="col-md-6 mt-md-4">
               {" "}
@@ -278,7 +278,7 @@ function Calendar() {
               </div>
             </div>
           </div>
-        </div>
+        </Container>{" "}
       </section>
     </>
   );

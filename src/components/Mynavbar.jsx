@@ -4,13 +4,14 @@ import muc from "../assets/image/png/muc.png";
 import in_img from "../assets/image/png/in_img.png";
 import insta from "../assets/image/png/insta.png";
 import you from "../assets/image/png/you.png";
+import { Container } from "react-bootstrap";
 
 function Mynavbar(props) {
   return (
     <>
       <section>
         <div className=" bg_green d-sm-block d-none py-2">
-          <div className="container">
+          <Container>
             <div className="d-md-flex justify-content-between align-items-center">
               <div className="d-sm-flex justify-content-center justify-content-md-start align-items-center">
                 <p className=" mb-0 me-2 fs_sm text-center text-md-start fw_regular ff_mont text_primary">
@@ -39,7 +40,7 @@ function Mynavbar(props) {
                 </a>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
       </section>
     </>

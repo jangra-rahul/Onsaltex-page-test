@@ -3,6 +3,7 @@ import after_line from "../assets/image/png/after_line.png";
 import Mymap from "./Mymap";
 import image1 from "../assets/image/png/image1.png";
 import Carousel from "react-bootstrap/Carousel";
+import { Container } from "react-bootstrap";
 
 function Consaltex() {
   return (
@@ -13,7 +14,7 @@ function Consaltex() {
           src={image1}
           alt="image1"
         />
-        <div className="container">
+        <Container>
           <div className="d-flex justify-content-center align-items-center ">
             <img src={after_line} alt="after_line" />
             <p className="fs_xsm fw_regular mb-0 ps-2 ff_mont text_primary">
@@ -155,7 +156,7 @@ function Consaltex() {
               </Carousel.Item>
             </Carousel>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );

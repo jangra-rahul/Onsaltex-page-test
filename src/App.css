@@ -726,7 +726,7 @@ div > h1 > .span3 {
   :root {
     /* font-size */
     --fs-sm: 10px;
-    --fs-xsm: 11px;
+    --fs-xsm: 10px;
     --fs-md: 12px;
     --fs-lg: 24px;
     --fs-xl: 22px;

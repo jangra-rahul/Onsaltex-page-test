@@ -11,6 +11,7 @@ import right_arrow from "../assets/image/png/right_arrow.png";
 import position from "../assets/image/png/position.png";
 import sh_img2 from "../assets/image/png/sh_img2.png";
 import arrowpng from "../assets/image/png/arrow.png";
+import { Container } from "react-bootstrap";
 
 export default function SimpleSlider() {
   var settings = {
@@ -46,7 +47,7 @@ export default function SimpleSlider() {
         src={position}
         alt="position"
       />
-      <div className="container pb-lg-5">
+      <Container className=" pb-lg-5">
         <div className="row flex-column-reverse flex-md-row justify-con tent-center  ">
           <div className="col-md-8 h-100">
             <div className="row">
@@ -135,7 +136,6 @@ export default function SimpleSlider() {
               </Slider>
             </div>
           </div>
-
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
@@ -217,9 +217,9 @@ export default function SimpleSlider() {
                 />
               </a>{" "}
             </div>
-          </div>
+          </div>{" "}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

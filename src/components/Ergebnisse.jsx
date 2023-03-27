@@ -3,6 +3,7 @@ import image8 from "../assets/image/png/image8.png";
 import sh_img from "../assets/image/png/sh_img.png";
 import box1 from "../assets/image/png/box1.png";
 import arrowpng from "../assets/image/png/arrow.png";
+import { Container } from "react-bootstrap";
 
 function Ergebnisse() {
   return (
@@ -18,7 +19,7 @@ function Ergebnisse() {
           src={box1}
           alt="box"
         />
-        <div className="container">
+        <Container>
           <div className="row align-items-center">
             <div className="col-md-7">
               <h2 className="fs_xl  position-relative z_index_1 fw_regular text_strok ff_poiret text-white ">
@@ -59,7 +60,7 @@ function Ergebnisse() {
               <img className="w-100" src={image8} alt="image8" />
             </div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );

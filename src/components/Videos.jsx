@@ -6,11 +6,12 @@ import green_culb from "../assets/image/png/green-cueb.png";
 import position from "../assets/image/png/position.png";
 import Carousel from "react-bootstrap/Carousel";
 import arrowpng from "../assets/image/png/arrow.png";
+import { Container } from "react-bootstrap";
 
 function Videos() {
   return (
     <>
-      <section className=" position-relative bg_theme py-5 pt-sm-5 pt-0">
+      <section className=" position-relative bg_theme py-5 pt-sm-5 pt-4">
         <img
           className=" shadow6_position d-md-block d-none z_index0"
           src={sh_img2}
@@ -26,7 +27,7 @@ function Videos() {
           src={position}
           alt="position"
         />
-        <div className="container pb-md-0 pb-xxl-0">
+        <Container className=" pb-md-0 pb-xxl-0">
           <div className="d-flex justify-content-center align-items-center ">
             <img src={after_line} alt="after_line" />
             <p className="fs_xsm fw_regular mb-0 ps-2 ff_mont text_primary">
@@ -159,7 +160,7 @@ function Videos() {
               <img src={arrowpng} alt="arrow" />
             </a>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );

@@ -3,6 +3,7 @@ import { Video_box } from "./Mymap";
 import Cube from "../assets/image/png/Cube.png";
 import sh_img from "../assets/image/png/sh_img.png";
 import Carousel from "react-bootstrap/Carousel";
+import { Container } from "react-bootstrap";
 
 function Kundenstimmen() {
   return (
@@ -18,7 +19,7 @@ function Kundenstimmen() {
           src={Cube}
           alt="Cube"
         />
-        <div className="container pb-md-5">
+        <Container className="pb-md-5">
           <h3 className="fs_xl  position-relative z_index_1 fw_regular text_strok text-white ff_poiret">
             Kundenstimmen
           </h3>
@@ -361,7 +362,7 @@ function Kundenstimmen() {
               })}
             </Carousel.Item>
           </Carousel>
-        </div>
+        </Container>
       </section>
     </>
   );

@@ -3,12 +3,13 @@ import after_line from "../assets/image/png/after_line.png";
 import right_arrow from "../assets/image/png/arrow_line.png";
 import Carousel from "react-bootstrap/Carousel";
 import arrowpng from "../assets/image/png/arrow.png";
+import { Container } from "react-bootstrap";
 
 function About() {
   return (
     <>
       <section className="bg_theme py-5">
-        <div className="container">
+        <Container>
           <div className="d-flex justify-content-center align-items-center ">
             <img src={after_line} alt="after_line" />
             <p className="fs_xsm fw_regular mb-0 ps-2 ff_mont text_primary">
@@ -650,7 +651,7 @@ function About() {
               <img src={arrowpng} alt="arrow" />
             </a>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );

@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../assets/image/png/Logo.png";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 function Footer() {
   return (
     <>
       <section className=" position-relative z_index_1 bg_footer pt-md-5 pt-3">
-        <div className="container">
+        <Container>
           <div className="row align-items-center">
             <ul className=" d-flex flex-sm-column col-sm-3 col-md-2 text-center justify-content-center justify-content-md-start  gap-sm-1 gap-4 align-items-center text-sm-start align-items-sm-start">
               <Link to="/">
@@ -54,7 +55,7 @@ function Footer() {
               </p>
             </div>
           </div>
-        </div>
+        </Container>
         <div className="border_line mt-md-5 mt-4"></div>
         <p className="fs_xsm ff_mont fw_regular text_primary_color mb-0  py-4 text-center ">
           Impressum | Datenschutz | AGBS

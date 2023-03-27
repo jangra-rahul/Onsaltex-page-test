@@ -4,6 +4,7 @@ import twoboy from "../assets/image/png/sdas 1.png";
 import Accordion from "react-bootstrap/Accordion";
 import sh_img from "../assets/image/png/sh_img.png";
 import image2 from "../assets/image/png/image2.png";
+import { Container } from "react-bootstrap";
 
 function Faq() {
   return (
@@ -19,7 +20,7 @@ function Faq() {
           src={image2}
           alt="image1"
         />
-        <div className="container">
+        <Container>
           <div className="d-flex justify-content-center align-items-center ">
             <img src={after_line} alt="after_line" />
             <p className="fs_xsm fw_regular mb-0 ps-2 ff_mont text_primary">
@@ -154,7 +155,7 @@ function Faq() {
               <img className="w-100" src={twoboy} alt="twoboy" />
             </div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );

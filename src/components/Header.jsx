@@ -7,6 +7,7 @@ import goll_img from "../assets/image/png/goll_img.png";
 import image from "../assets/image/png/image.png";
 import image1 from "../assets/image/png/image1.png";
 import sh_img1 from "../assets/image/png/sh_img1.png";
+import { Container } from "react-bootstrap";
 
 function Header() {
   return (
@@ -28,7 +29,7 @@ function Header() {
             src={image1}
             alt="image1"
           />
-          <div className="container">
+          <Container>
             <div className=" text-start ps-sm-4 ms-sm-2 ms-0 ms-md-0 ps-md-0 ms-lg-5 ps-lg-5 ms-xl-5 ps-xl-0">
               <div className=" d-inline-block ps-md-1 ps-xxl-5 d-flex align-items-center justify-content-center justify-content-sm-start mt-4">
                 <img src={after} alt="after" />
@@ -81,7 +82,7 @@ function Header() {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
       </section>
     </>
