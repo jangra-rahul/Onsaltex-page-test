@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 function Kundenstimmen() {
   return (
     <>
-      <section className="position-relative bg_theme py-5 pt-md-5 pt-0">
+      <section className="position-relative bg_theme py-5 pt-md-5 pt-xl-0 pt-0">
         <img
           className=" shadow_circle1_position d-md-block d-none z_index0"
           src={sh_img}

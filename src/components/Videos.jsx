@@ -41,7 +41,7 @@ function Videos() {
           >
             Aktuelle Themen
           </h3>
-          <div className="row d-sm-flex d-none position-relative z_index_1 justify-content-center mt-sm-4 mt-2">
+          <div className="row d-sm-flex d-none position-relative z_index_1 justify-content-center mt-sm-5 mt-2">
             {myvideo.map((data) => {
               return (
                 <div

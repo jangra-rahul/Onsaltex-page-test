@@ -13,7 +13,7 @@ import { Container } from "react-bootstrap";
 function KarriereHeader() {
   return (
     <>
-      <section className=" position-relative d-flex flex-column min_vh_100 flex-grow-1 py-md-5 pt-4 pb-3">
+      <section className=" position-relative d-flex flex-column min_vh_100 flex-grow-1 justify-content-center py-md-5 py-xl-0  pt-4 pb-3">
         <img className=" shadow_position z_index0" src={sh_img} alt="sh_img" />
         <img
           className=" shadow1_position z_index0"

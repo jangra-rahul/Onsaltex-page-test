@@ -37,7 +37,7 @@ function Faq() {
           <div>
             {" "}
             <Accordion
-              className="mt-md-5 mt-3 position-relative z_index_1"
+              className="mt-md-4 mt-3 position-relative z_index_1"
               defaultActiveKey="0"
             >
               <Accordion.Item
