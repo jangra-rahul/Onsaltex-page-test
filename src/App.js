@@ -26,15 +26,6 @@ function App() {
           <Route path="/Hiring" element={<Karriere />} />
         </Routes>
       </div>
-      {/* <Header /> */}
-      {/* <Logo />
-      <Testimonials />
-      <Consaltex />
-      <Ergebnisse />
-      <About />
-      <Videos />
-      <Faq /> */}
-      {/* <Testimonialsfile /> */}
     </>
   );
 }

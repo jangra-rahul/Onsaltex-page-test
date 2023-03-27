@@ -39,7 +39,7 @@ function KarriereHeader() {
           >
             Werde ein Teil unserer Erfolgsgeschichte
           </h3>
-          <div className="row align-items-center justify-content-around mt-5">
+          <div className="row align-items-center justify-content-around mt-4">
             <div
               data-aos="zoom-in"
               data-aos-duration="1500"

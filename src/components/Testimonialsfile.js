@@ -10,7 +10,7 @@ function Testimonialsfile() {
     <>
       <Mynavbar display={"d-none"} />
       <div className="bg_theme">
-        <Mainnav />
+        <Mainnav display={"d-none"} />
         <Header_section />
       </div>
       <Kundenstimmen />

@@ -12,7 +12,7 @@ import box from "../assets/image/png/box.png";
 import arrow from "../assets/image/png/arrow.png";
 import sh_img1 from "../assets/image/png/sh_img1.png";
 
-function Mainnav() {
+function Mainnav(props) {
   const [name, setName] = useState(false);
   if (name) {
     document.body.style.overflow = "hidden";
@@ -21,7 +21,7 @@ function Mainnav() {
   }
   return (
     <>
-      <section className=" z_index_1 py-2 position-relative">
+      <section className=" z_index_1 py-3 position-relative">
         <img
           className=" nav_position animation d-lg-block d-none"
           src={box}
@@ -143,19 +143,19 @@ function Mainnav() {
                     </a>
                   </div>
                   <div className="d-md-none d-block justify-content-center mt-2 mt-md-0 justify-content-md-start align-items-center">
-                    <a href="#">
+                    <a className={props.display} href="#">
                       <img className="me-3" src={face} alt="face" />
                     </a>
-                    <a href="#">
+                    <a className={props.display} href="#">
                       <img className="me-3" src={muc} alt="muc" />
                     </a>
-                    <a href="#">
+                    <a className={props.display} href="#">
                       <img className="me-3" src={in_img} alt="in_img" />
                     </a>
-                    <a href="#">
+                    <a className={props.display} href="#">
                       <img className="me-3" src={insta} alt="insta" />
                     </a>
-                    <a href="#">
+                    <a className={props.display} href="#">
                       <img src={you} alt="you" />
                     </a>
                   </div>

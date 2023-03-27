@@ -9,7 +9,7 @@ function Karriere() {
     <>
       <Mynavbar display={"d-none"} />
       <div className=" bg_header_image">
-        <Mainnav />
+        <Mainnav display={"d-none"} />
         <KarriereHeader />
       </div>
       <Footer />

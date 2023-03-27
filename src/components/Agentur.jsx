@@ -34,7 +34,6 @@ function Agentur() {
             In 6 Schritten von der Agentur<br></br> zur Umsatzmaschine
           </h2>
           <div className="row justify-content-evenly pb-lg-5 d-lg-block d-none justify-content-center mt-md-4 mt-3">
-            {/* <div className="col-lg-6 col-xl-5 col-md-8 col-sm-7"> */}
             <div className=" col-xl-12 col-md-12 col-xxl-12">
               {" "}
               <div className="col-1"></div>

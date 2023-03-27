@@ -192,7 +192,6 @@
   position: absolute;
   right: -60px;
   top: 55px;
-  /* z-index: 2; */
   width: 50%;
 }
 
@@ -251,10 +250,6 @@
 .z_index_1 {
   z-index: 1 !important;
 }
-/* 
-.logo_common_width {
-  width: 1370px;
-} */
 
 .shadow_position {
   position: absolute;
@@ -265,7 +260,7 @@
 .shadow1_position {
   position: absolute;
   width: 25%;
-  top: -63px;
+  top: -79px;
   right: 0;
 }
 .shadow2_position {
@@ -371,7 +366,7 @@
 .border_solid {
   border: 1px solid #4c5654 !important;
 }
-/* }/////////////////////////////////////////// */
+/* -------------------------------------- */
 .Testimonials .Btn_slider {
   width: 49px;
   height: 40px;
@@ -560,7 +555,6 @@ textarea {
 
 .table_text_hover:hover {
   background: #05502e;
-  /* padding: 2px 3px; */
   color: white;
 }
 
